@@ -11,7 +11,9 @@
 - 安装vs code
 - 安装Miktex
 - 安装vs code插件：LaTeX workshop
-- 配置LaTeX workshop设置："latex-workshop.latex.recipes": [{
+- 配置LaTeX workshop设置（ctrl+x，在user中添加如下）：
+```
+"latex-workshop.latex.recipes": [{
   "name": "texify",
   "tools": [
     "texify"
@@ -28,3 +30,6 @@
     "%DOC%.tex"
   ]
 }]
+```
+- ok
+- ctrl+alt+b编译

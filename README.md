@@ -4,7 +4,7 @@
 - 安装Miktex，经典安装，自动添加环境变量
 - 安装Sublime插件，Latextools
 - 安装SumatraPdf
-- 设置从pdf跳转回tex代码处：打开 Sumatra， 设置—–> 选项 —–> 设置反向搜索命令行，输入``"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"`` 
+- 设置从pdf跳转回tex代码处：打开 Sumatra， 设置—–> 选项 —–> 设置反向搜索命令行，输入``"sublime安装路径\sublime_text.exe" "%f:%l"`` 
 - ok
 - ctrl+b: build; 双击SumatraPdf跳转至相应代码处。
 ## vs code + Miktex ##

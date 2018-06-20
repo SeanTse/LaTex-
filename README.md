@@ -7,3 +7,24 @@
 - 设置从pdf跳转回tex代码处：SumatraPDF.exe -inverse-search"\\"SUBLIME_PATH" \\"%f:%l\\"" (测试无效，不管了)
 - ok
 - ctrl+b: build; 双击SumatraPdf跳转至相应代码处。
+## vs code + Miktex ##
+- 安装vs code
+- 安装Miktex
+- 安装vs code插件：LaTeX workshop
+- 配置LaTeX workshop设置："latex-workshop.latex.recipes": [{
+  "name": "texify",
+  "tools": [
+    "texify"
+  ]
+}],
+"latex-workshop.latex.tools": [{
+  "name": "texify",
+  "command": "texify",
+  "args": [
+    "--synctex",
+    "--pdf",
+    "--tex-option=\"-interaction=nonstopmode\"",
+    "--tex-option=\"-file-line-error\"",
+    "%DOC%.tex"
+  ]
+}]

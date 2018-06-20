@@ -1,5 +1,5 @@
-# LaTex-
-##sublime text 3 + Miktex##
+# LaTex环境搭建
+## sublime text 3 + Miktex 
 - 安装Sublime Text 3，经典安装
 - 安装Miktex，经典安装，自动添加环境变量
 - 安装Sublime插件，Latextools

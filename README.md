@@ -4,6 +4,6 @@
 - 安装Miktex，经典安装，自动添加环境变量
 - 安装Sublime插件，Latextools
 - 安装SumatraPdf
-- 设置从pdf跳转回tex代码处：SumatraPDF.exe -inverse-search"\\"SUBLIME_PATH" \\"%f:%l\\""
+- 设置从pdf跳转回tex代码处：SumatraPDF.exe -inverse-search"\\"SUBLIME_PATH" \\"%f:%l\\"" (测试无效，不管了)
 - ok
 - ctrl+b: build; 双击SumatraPdf跳转至相应代码处。
